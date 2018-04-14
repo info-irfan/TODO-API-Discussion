@@ -1,1 +1,29 @@
 Entity schema design.
+Features : 
+Day to Day basic works.
+
+1. Task Table for Task
+Id:int,
+TaskName: varchar,
+StautsId: int(FK),
+TaskTypeId: int(FK),
+Note: string
+
+2. Task Status Type (Master Table)
+Id: Int,
+StausType:string-- (New, In-progress, completed, delayed)
+
+3. TaskType Table (Master Table)
+Id: Int,
+Type:String(Once,daily, weekly, monthly,yearly,custom)
+
+
+4.TaskReminder
+Id:int,
+fromdate: datetime,
+fromTime: datetime,
+Todate: datetime,
+ToTime: datetime,
+Day:number,
+Month: number,
+TaskID: int(FK)
