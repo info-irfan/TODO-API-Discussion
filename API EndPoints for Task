@@ -1,0 +1,20 @@
+Get List of Task: Get
+{domain}/api/v1/task
+
+Get Specific Task: Get
+{domain}/api/v1/task/{id}
+
+Create Task : Post
+{domain}/api/v1/task
+Payload : Task object
+
+Update Task : Put
+{domain}/api/v1/task/{id}
+Payload : Task object
+
+Update Task : Patch
+{domain}/api/v1/task/{id}
+Payload : Task object Partial
+
+Delete Specific Task : Delete
+{domain}/api/v1/task/{id}
