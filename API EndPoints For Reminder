@@ -1,0 +1,20 @@
+Get List of Reminder: Get
+{domain}/api/v1/Reminder
+
+Get Specific Reminder: Get
+{domain}/api/v1/Reminder/{id}
+
+Create Reminder : Post
+{domain}/api/v1/Reminder
+Payload : Reminder object
+
+Update Reminder : Put
+{domain}/api/v1/Reminder/{id}
+Payload : Reminder object
+
+Update Partial Reminder : Patch
+{domain}/api/v1/Reminder/{id}
+Payload : Reminder object Partial
+
+Delete Specific Reminder : Delete
+{domain}/api/v1/Reminder/{id}
